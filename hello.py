@@ -4,8 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return 'sup gg'
-def test:
-    return sup
+
 
 @app.route('/user/<username>')
 def show_user_profile(username):
